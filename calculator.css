@@ -1,0 +1,74 @@
+body{
+  /* background: linear-gradient(#44011e,#b4083f); */
+background-image: url('calc.jpg');
+
+background-repeat: repeat;
+background-size:contain;
+
+  /* background-color: #ff004f; */
+}
+#border{
+  background-color: #85062e;
+   border-radius: 15px;
+  margin-top: 70px;
+  border: 2px solid black;
+  width: 43%;
+  margin-left: 20%;
+  padding-right: 14%;
+  padding-bottom: 18px;
+}
+#screen{
+  width: 62%;
+  height: 50px;
+  border-radius: 6px;
+ margin-left: 35%;
+ font-size: 30px;
+ border: 3px solid black;
+}
+h1{
+
+  border: 1px solid rgb(197, 143, 76);
+  font-size: 55px;
+  font-weight: 2000;
+  margin-top: 7%;
+  margin-left: 33.7%;
+  color: rgb(197, 143, 76);
+ border-radius: 8px;
+  background-color: #1f010a;
+  width: 63%;
+  text-align: center;
+}
+
+#cal{
+  margin-left: 35%;
+  margin-top: 6px;
+}
+
+.button1{
+  /* color: rgb(253, 21, 21); */
+  color: #fff;
+  background-color: black;
+  text-align: center;
+  block-size: 50px;
+  inline-size: 85px;
+  font-size: 18px;
+  /* display: inline-block; */
+  margin: 4px 2px;
+  border-radius: 6px;
+  border: 1px solid rgb(197, 143, 76);
+  position: relative;
+  /* margin-left: 20%; */
+
+  /* align-items: center; */
+}
+.button2{
+  color: aqua;
+}
+.button1:hover{
+  background-color:rgb(30, 9, 9) ;
+  color: #b4083f;
+  block-size: 52px;
+  inline-size: 86px;
+}
+
+
